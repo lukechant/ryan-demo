@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SecondBitComponent } from './second-bit/second-bit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+      SecondBitComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
